@@ -15,6 +15,7 @@ const App = () => {
           .then(val => console.log(val));
       }
     })();
+    
   }, []);
   return (
     <View>
